@@ -76,10 +76,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Boutique consulting lab — Compliance, Go-To-Market, Web3 Projects." },
       { name: "author", content: "Present Future Lab" },
       { property: "og:title", content: "Present Future Lab" },
-      { property: "og:description", content: "Strategic consulting for companies building across regulated, fast-moving, and emerging markets." },
+      { property: "og:description", content: "Boutique consulting lab — Compliance, Go-To-Market, Web3 Projects." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Present Future Lab" },
+      { name: "twitter:description", content: "Boutique consulting lab — Compliance, Go-To-Market, Web3 Projects." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1ff5575d-2916-4b44-ad83-d4871d1e1e75/id-preview-b0c6ccd9--bfad9391-0400-4cad-9e32-b08d51156ee8.lovable.app-1778756368609.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1ff5575d-2916-4b44-ad83-d4871d1e1e75/id-preview-b0c6ccd9--bfad9391-0400-4cad-9e32-b08d51156ee8.lovable.app-1778756368609.png" },
     ],
     links: [
       {
